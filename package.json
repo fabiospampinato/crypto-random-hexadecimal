@@ -2,7 +2,7 @@
   "name": "crypto-random-hexadecimal",
   "repository": "github:fabiospampinato/crypto-random-hexadecimal",
   "description": "Generate a cryptographically-random hexadecimal string with the given number of bytes of entropy.",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
