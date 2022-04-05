@@ -1,8 +1,8 @@
 
 /* IMPORT */
 
-const {default: random} = require ( '../dist' );
-const benchmark = require ( 'benchloop' );
+import benchmark from 'benchloop';
+import random from '../dist/index.js';
 
 /* MAIN */
 
