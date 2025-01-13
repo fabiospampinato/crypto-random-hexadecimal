@@ -5,13 +5,15 @@ Generate a cryptographically-random hexadecimal string with the given number of 
 ## Install
 
 ```sh
-npm install --save crypto-random-hexadecimal
+npm install crypto-random-hexadecimal
 ```
 
 ## Usage
 
 ```ts
 import random from 'crypto-random-hexadecimal';
+
+// Let's get a random hexadecimal string
 
 random ( 8 ); // => '4e8eefd571e21e56'
 random ( 16 ); // => '402c59006784a2a55e994589693e907c'
